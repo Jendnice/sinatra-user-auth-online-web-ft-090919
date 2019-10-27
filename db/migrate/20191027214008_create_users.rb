@@ -1,7 +1,7 @@
 class CreateUsers < ActiveRecord::Migration
   
   def change
-    create_table "Users" do 
+    create_table :users do 
   end
   
 end
